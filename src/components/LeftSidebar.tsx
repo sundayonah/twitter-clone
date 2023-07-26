@@ -38,7 +38,7 @@ const NAV_ITEMS = [
 
 const LeftSidebar = () => {
   return (
-    <section className="fixed w-[275px] flex flex-col h-screen">
+    <section className="fixed w-[275px] flex flex-col h-screen px-2" >
     <div className='flex flex-col items-stretch h-screen space-y-4 mt-4'>
     {NAV_ITEMS.map((item) =>(
         <Link 
